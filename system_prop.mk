@@ -53,6 +53,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.qcril_uim_vcc_feature=1 \
     persist.data.qmi.adb_logmask=0 \
     net.tethering.noprovisioning=true \
+    
+#Disable mobile data by default
+	ro.com.android.mobiledata=false
 
 # Graphics
 PRODUCT_PROPERTY_OVERRIDES += \
