@@ -117,9 +117,11 @@ PRODUCT_PACKAGES += \
     libqomx_core \
     libmm-qcamera \
     libmmcamera_interface \
+    libmmcamera_interface2 \
     libmmjpeg_interface \
     mm-qcamera-app \
-    Snap
+    Snap \
+    Camera2
 
 # for off charging mode
 PRODUCT_PACKAGES += \
@@ -188,7 +190,8 @@ PRODUCT_PACKAGES += \
     libqcomvisualizer \
     libqcomvoiceprocessingdescriptors \
     libqcomvoiceprocessing \
-    tinymix
+    tinymix \
+    Music
 
 # OpenSource Audio helpers
 PRODUCT_PACKAGES += \
