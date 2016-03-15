@@ -68,7 +68,8 @@ PRODUCT_PACKAGES += \
     libnl_2 \
     libbson \
     librmnetctl \
-    libxml2
+    libxml2 \
+    InCallUI
 
 # Thermal
 PRODUCT_PACKAGES += \
@@ -120,7 +121,6 @@ PRODUCT_PACKAGES += \
     libmmcamera_interface2 \
     libmmjpeg_interface \
     mm-qcamera-app \
-    Snap \
     Camera2
 
 # for off charging mode
@@ -191,7 +191,7 @@ PRODUCT_PACKAGES += \
     libqcomvoiceprocessingdescriptors \
     libqcomvoiceprocessing \
     tinymix \
-    Music
+    Eleven
 
 # OpenSource Audio helpers
 PRODUCT_PACKAGES += \
@@ -270,6 +270,12 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.midi.xml:system/etc/permissions/android.software.midi.xml \
     frameworks/native/data/etc/android.hardware.opengles.aep.xml:system/etc/permissions/android.hardware.opengles.aep.xml \
     frameworks/native/data/etc/android.hardware.audio.low_latency.xml:system/etc/permissions/android.hardware.audio.low_latency.xml
+
+# set default USB configuration
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+    sys.usb.config=mtp,adb \
+    persist.sys.usb.config=mtp,adb \
+
 
 # setup dalvik vm configs.
 $(call inherit-product, frameworks/native/build/phone-xxxhdpi-3072-dalvik-heap.mk)
