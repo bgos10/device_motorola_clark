@@ -118,7 +118,7 @@ PRODUCT_PACKAGES += \
     libmmcamera_interface2 \
     libmmjpeg_interface \
     mm-qcamera-app \
-    Camera2
+    Snap
 
 # for off charging mode
 PRODUCT_PACKAGES += \
