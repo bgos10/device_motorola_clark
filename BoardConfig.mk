@@ -75,6 +75,9 @@ TARGET_KEYMASTER_WAIT_FOR_QSEE := true
 KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/aarch64/aarch64-linux-android-4.9-kernel/bin
 KERNEL_TOOLCHAIN_PREFIX := aarch64-linux-android-
 
+# Rom Toolchain
+TARGET_GCC_VERSION_EXP := 4.9
+
 # Optimizations
 STRICT_ALIASING := false
 CLANG_O3 := true
