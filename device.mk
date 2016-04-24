@@ -153,7 +153,6 @@ PRODUCT_PACKAGES += \
 
 # Media
 PRODUCT_PACKAGES += \
-    libstagefrighthw \
     libc2dcolorconvert \
     libdivxdrmdecrypt \
     libOmxAacEnc \
@@ -165,9 +164,6 @@ PRODUCT_PACKAGES += \
     libOmxVdec \
     libOmxVdecHevc \
     libOmxVenc
-
-PRODUCT_BOOT_JARS += \
-    libstagefrighthw
 
 # Lights
 PRODUCT_PACKAGES += \
