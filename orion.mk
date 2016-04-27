@@ -2,9 +2,6 @@
 TARGET_SCREEN_HEIGHT := 1440
 TARGET_SCREEN_WIDTH := 2560
 
-# Inherit 64-bit configs
-$(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
-
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/orion/config/common.mk)
 $(call inherit-product, vendor/orion/config/common_full_phone.mk)

@@ -68,8 +68,7 @@ PRODUCT_PACKAGES += \
     libnl_2 \
     libbson \
     librmnetctl \
-    libxml2 \
-    InCallUI
+    libxml2
 
 # Thermal
 PRODUCT_PACKAGES += \
@@ -113,8 +112,8 @@ PRODUCT_PACKAGES += \
     camera.clark \
     libcamera \
     libqomx_core \
-    libmm-qcamera \
     libmmcamera_interface \
+    libmmcamera_interface2 \
     libmmjpeg_interface \
     mm-qcamera-app \
     Snap
@@ -155,11 +154,12 @@ PRODUCT_PACKAGES += \
     libOmxAacEnc \
     libOmxAmrEnc \
     libOmxCore \
+    libmm-omxcore \
     libOmxEvrcEnc \
     libOmxQcelp13Enc \
     libOmxVdec \
-    libOmxVenc \
-    libstagefrighthw
+    libOmxVdecHevc \
+    libOmxVenc
 
 PRODUCT_BOOT_JARS += \
     libstagefrighthw

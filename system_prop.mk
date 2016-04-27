@@ -8,7 +8,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Camera
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.qc.sdk.camera.facialproc=false \
-    persist.camera.HAL3.enabled=0 \
+    persist.camera.HAL3.enabled=1 \
     persist.camera.tnr.video=on \
     persist.camera.tnr.preview=on
 
@@ -62,7 +62,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     debug.sf.hw=1 \
     debug.egl.hw=1 \
     ro.opengles.version=196609 \
-    ro.sf.lcd_density=560
+    ro.sf.lcd_density=560 \
+    persist.sys.lcd_density=560 \
+	ro.orion.lcd_density=560
 
 # HWUI
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -126,8 +128,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.audio.fluence.voicecall=true \
     persist.audio.fluence.voicecomm=true \
     persist.audio.fluence.voicerec=false \
-    persist.audio.fluence.speaker=false \
+    persist.audio.fluence.speaker=true \
+    persist.speaker.prot.enable=false \
     audio.offload.disable=0 \
+    ro.config.vc_call_vol_steps=8 \
     audio.offload.buffer.size.kb=32 \
     audio.offload.multiple.enabled=true \
     audio.offload.pcm.16bit.enable=false \
