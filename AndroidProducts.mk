@@ -15,5 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/pac.mk \
-    $(LOCAL_DIR)/aosp.mk
+    $(LOCAL_DIR)/aosp_clark.mk
