@@ -8,7 +8,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Camera
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.qc.sdk.camera.facialproc=false \
-    persist.camera.HAL3.enabled=1 \
+    persist.camera.HAL3.enabled=0 \
     persist.camera.tnr.video=on \
     persist.camera.tnr.preview=on
 
@@ -152,7 +152,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.debug.coresight.config=stm-events \
     ro.bug2go.magickeys=24,26 \
     drm.service.enabled=true \
-    mdc_initial_max_retry=10
+    mdc_initial_max_retry=10 \
+    qemu.hw.mainkeys=0
 
 # For Playstore
 PRODUCT_PROPERTY_OVERRIDES += \
