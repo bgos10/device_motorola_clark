@@ -207,6 +207,10 @@ PRODUCT_PACKAGES += \
     timekeep \
     TimeKeep
 
+# Doze
+PRODUCT_PACKAGES += \
+    MotoDoze
+
 # Wifi
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/wifi/hostapd.accept:system/etc/hostapd/hostapd.accept \
