@@ -68,7 +68,8 @@ PRODUCT_PACKAGES += \
     libnl_2 \
     libbson \
     librmnetctl \
-    libxml2
+    libxml2 \
+    LatinIME
 
 # Thermal
 PRODUCT_PACKAGES += \
@@ -78,6 +79,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     timekeep \
     TimeKeep
+
+# Doze
+PRODUCT_PACKAGES += \
+    MotoDoze
 
 # Live Wallpapers
 PRODUCT_PACKAGES += \
@@ -114,7 +119,6 @@ PRODUCT_PACKAGES += \
     libqomx_core \
     libmm-qcamera \
     libmmcamera_interface \
-    libmmcamera_interface2 \
     libmmjpeg_interface \
     mm-qcamera-app \
     Snap
