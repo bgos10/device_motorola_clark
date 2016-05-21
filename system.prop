@@ -64,6 +64,9 @@ persist.mot.gps.smart_battery=1
 ro.gps.agps_provider=1
 ro.pip.gated=0
 
+#Disable mobile data by default
+ro.com.android.mobiledata=false
+
 # Graphics
 debug.egl.hw=1
 debug.sf.hw=1
