@@ -146,6 +146,7 @@ TARGET_USES_64_BIT_BINDER := true
 
 # Power
 TARGET_POWERHAL_VARIANT := qcom
+TARGET_TAP_TO_WAKE_NODE := "/sys/android_touch/doubletap2wake"
 
 # Protobuf-c is supported in this build
 PROTOBUF_SUPPORTED := true
