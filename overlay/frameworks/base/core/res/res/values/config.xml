@@ -301,7 +301,6 @@
             64 - Volume rocker
          For example, a device with Home, Back and Menu keys would set this
          config to 7. -->
-    <integer name="config_deviceHardwareWakeKeys">64</integer>
     
     <!-- Defines the system property to set for performance profile xe: sys.cpu.modes. Leave it
          blank if the device do not support performance profiles -->
@@ -404,8 +403,6 @@
     
     <bool name="config_supportDoubleTapWake">true</bool>
     
-    <!-- Bool whether to show MotoDoze Gestures in Universe -->
-    <bool name="config_showMotoDozeGestures">true</bool>
 
     <!-- The RadioAccessFamilies supported by the device.
          Empty is viewed as "all".  Only used on devices which
