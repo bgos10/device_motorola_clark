@@ -168,7 +168,6 @@ PROTOBUF_SUPPORTED := true
 
 #Camera
 USE_DEVICE_SPECIFIC_CAMERA := true
-BOARD_QTI_CAMERA_32BIT_ONLY := true
 
 #Enable peripheral manager
 TARGET_PER_MGR_ENABLED := true
