@@ -43,6 +43,7 @@ vendor/lib/libacdbrtac.so
 vendor/lib/libadiertac.so
 vendor/lib/libaudcal.so
 vendor/lib/libaudioalsa.so
+vendor/lib/libhwdaphal.so
 vendor/lib/soundfx/libqcbassboost.so
 vendor/lib/soundfx/libqcreverb.so
 vendor/lib/soundfx/libqcvirt.so
@@ -91,6 +92,7 @@ bin/btnvtool
 bin/hci_qcomm_init
 bin/wcnss_filter
 etc/user_bhd_psy.conf
+etc/user_dbg_bhd_psy.conf
 etc/firmware/nvm_tlv.bin
 etc/firmware/nvm_tlv_1.3.bin
 etc/firmware/nvm_tlv_2.1.bin
@@ -114,7 +116,7 @@ etc/firmware/cpp_firmware_v1_6_0.fw
 etc/firmware/cpp_firmware_v1_8_0.fw
 etc/permissions/com.motorola.camera.xml
 etc/permissions/com.motorola.gallery.xml
-lib/hw/camera.msm8992.so
+lib/hw/camera.vendor.msm8992.so
 lib/libmot_lux_standardization.so
 lib/libadvalgcore.so
 lib/libAisAdapter.so
@@ -259,6 +261,11 @@ bin/msm_irqbalance
 bin/perfd
 vendor/lib/libqti-perfd-client.so
 vendor/lib/libthermalclient.so
+
+# IO Prefetcher
+bin/iop
+lib/libqti-iop.so
+vendor/lib/libqti-iop-client.so
 
 # DM/Sprint
 -app/DMConfigUpdateLight/DMConfigUpdateLight.apk
@@ -447,6 +454,7 @@ bin/diag_mdlog-wrap
 bin/diag_qshrink4_daemon
 bin/port-bridge
 bin/test_diag
+bin/ipacm-diag
 bin/netmgrd
 bin/qmi_motext_hook
 bin/qmuxd

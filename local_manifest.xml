@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <project name="TeamOrion-Devices/device_motorola_clark" path="device/motorola/clark" remote="github" revision="6.0.1-old" />
-  <project name="bgos10/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="mm6.0-old" />
+  <project name="TeamOrion-Devices/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="mm6.0" />
+  <project name="TeamOrion-Devices/kernel_motorola_msm8992" path="kernel/motorola/clark" remote="github" revision="6.0.1" />
   <project name="CyanogenMod/android_vendor_qcom_opensource_dataservices" path="vendor/qcom/opensource/dataservices" remote="github" revision="cm-13.0" />
   <project name="SlimRoms/device_qcom_common" path="device/qcom/common" remote="github" revision="mm6.0" />
-  <project name="CyanogenMod/android_vendor_qcom_opensource_dataservices" path="vendor/qcom/opensource/dataservices" remote="github" revision="cm-13.0" />
   <project name="CyanogenMod/android_hardware_sony_timekeep" path="hardware/sony/timekeep" remote="github" revision="cm-13.0" />
+  <project path="external/libnfnetlink" name="CyanogenMod/android_external_libnfnetlink" remote="github" revision="cm-13.0"/>
+  <project path="external/libnetfilter_conntrack" name="CyanogenMod/android_external_libnetfilter_conntrack" remote="github" revision="cm-13.0"/>
+  <remove-project path="external/dhcpcd" name="platform/external/dhcpcd"/>
+  <project path="external/dhcpcd" name="CyanogenMod/android_external_dhcpcd" remote="github" revision="cm-13.0"/>
 </manifest>
