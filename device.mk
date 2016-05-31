@@ -106,7 +106,9 @@ PRODUCT_PACKAGES += \
 # IPA Manager
 PRODUCT_PACKAGES += \
     ipacm \
-    IPACM_cfg.xml
+    IPACM_cfg.xml \
+    libnfnetlink \
+    libnetfilter_conntrack
 
 # Keylayout
 PRODUCT_COPY_FILES += \
