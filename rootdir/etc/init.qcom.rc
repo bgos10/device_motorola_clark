@@ -573,6 +573,11 @@ service motosh /system/bin/motosh boot
     user compass
     group compass misc input mot_tcmd
     oneshot
+    
+service mmi-touch-sh /system/bin/sh /init.mmi.touch.sh synaptics
+    class core
+    user root
+    oneshot
 
 service adspd /system/bin/adspd
    class main
