@@ -233,3 +233,5 @@ PRODUCT_PACKAGES += \
     libwpa_client \
     wpa_supplicant \
     wpa_supplicant.conf
+
+$(call inherit-product-if-exists, hardware/qcom/msm8994/msm8992.mk)
