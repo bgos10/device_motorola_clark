@@ -12,6 +12,8 @@ $(call inherit-product, vendor/orion/config/nfc_enhanced.mk)
 
 DEVICE_PACKAGE_OVERLAYS += device/motorola/clark/overlay
 
+PRODUCT_COPY_FILES := device/motorola/clark/apns-full-conf.xml:system/etc/apns-conf.xml
+
 ## Device identifier. This must come after all inclusions
 PRODUCT_NAME := orion_clark
 PRODUCT_BRAND := Android
