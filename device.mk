@@ -46,7 +46,8 @@ PRODUCT_PACKAGES += \
     libtinyalsa \
     libtinycompress \
     libtinyxml \
-    tinymix
+    tinymix \
+    Eleven
 
 # Camera
 PRODUCT_PACKAGES += \
