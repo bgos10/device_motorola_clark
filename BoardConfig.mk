@@ -126,6 +126,13 @@ TARGET_USES_UNCOMPRESSED_KERNEL := true
 # Lights
 TARGET_PROVIDES_LIBLIGHT := true
 
+# Optimizations
+STRICT_ALIASING := false
+CLANG_O3 := true
+ENABLE_GCCONLY := true
+GRAPHITE_OPTS := false
+USE_PIPE := true
+
 # Peripheral manager
 TARGET_PER_MGR_ENABLED := true
 
