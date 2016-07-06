@@ -1,11 +1,11 @@
 [
   {
-    "repository": "AICP/kernel_motorola_msm8992",
+    "repository": "TeamOrion-Devices/kernel_motorola_msm8992",
     "target_path": "kernel/motorola/msm8992",
-    "branch":      "mm6.0"
+    "branch":      "6.0.1"
   },
   {
-    "repository": "AICP/proprietary_vendor_motorola",
+    "repository": "TeamOrion-Devices/proprietary_vendor_motorola",
     "target_path": "vendor/motorola",
     "branch":      "mm6.0"
   },
