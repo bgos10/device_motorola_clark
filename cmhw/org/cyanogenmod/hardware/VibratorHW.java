@@ -16,14 +16,16 @@
 
 package org.cyanogenmod.hardware;
 
-import org.cyanogenmod.internal.util.FileUtils;
+import java.io.File;
+
+import org.cyanogenmod.hardware.util.FileUtils;
 
 public class VibratorHW {
 
     private static String LEVEL_PATH = "/sys/vibrator/pwmvalue";
 
     public static boolean isSupported() {
-        return FileUtils.isFileWritable(LEVEL_PATH);
+        return new File(LEVEL_PATH).exists();
     }
 
     public static int getMaxIntensity()  {
